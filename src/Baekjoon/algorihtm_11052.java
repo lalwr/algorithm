@@ -21,7 +21,7 @@ public class algorihtm_11052 {
 
         for(int i=1; i <= n; i++){
             for(int j=1; j <= i; j++){
-                dp[i] = Math.max(dp[i], dp[i-j]+set[j]);
+                dp[i] = dp[i] > dp[i-j]+set[j] ? dp[i] : dp[i-j]+set[j];
             }
         }
 
