@@ -25,7 +25,7 @@ public class algorihtm_1003 {
 
     public static void  fibonacci(int[][] dp, int n)
     {
-        if(n >= 2 && dp[n][0] == 0 && dp[n][1] == 0){
+        if(n >= 2){
             for(int i=2; i<= n; i++){
                 dp[i][0] = dp[i-1][0] + dp[i-2][0];
                 dp[i][1] = dp[i-1][1] + dp[i-2][1];
