@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 //https://www.acmicpc.net/problem/9095
-public class algorihtm_9095 {
+public class algorithm_9095 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
